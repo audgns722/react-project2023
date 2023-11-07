@@ -17,8 +17,8 @@
     line-height: 1.6;
     text-transform: uppercase;
     font-family: var(--mainEng-font);
-    color: var(--mainFont-color);
-    border-bottom: 5px solid var(--subBg500);
+    color: var(--bigNum-color);
+    border-bottom: 5px solid var(--border-color);
     margin-bottom: 1vw;
 }
 
@@ -48,6 +48,7 @@
     position: relative;
     border-radius: 0 15px 15px 0;
     color: var(--white);
+    box-shadow: rgb(38, 57, 77) 15px 15px 15px -10px;
 }
 
 .port__item .num {
@@ -55,7 +56,7 @@
     position: absolute;
     font-size: 3.5rem;
     font-weight: 500;
-    color: var(--mainFont-color);
+    color: var(--border-color);
     line-height: 1;
     font-family: var(--mainNum-font);
     padding-top: 10px;
@@ -65,15 +66,16 @@
 }
 
 .port__item img {
-    background-color: #122531;
     width: 100%;
     height: 250px;
     transition: all 0.3s;
-    padding: 20px;
+    border-radius: 5px;
+    
 }
 
 .port__item img:hover {
     transform: scale(1.05);
+    box-shadow: rgba(255, 232, 156, 0.4) 0px 5px, rgba(255, 232, 156, 0.3) 0px 10px, rgba(255, 232, 156, 0.2) 0px 15px, rgba(255, 232, 156, 0.1) 0px 20px, rgba(255, 232, 156, 0.05) 0px 25px;
 }
 
 .port__item .title {
@@ -82,7 +84,7 @@
     font-family: var(--mainKor-font);
     font-weight: 700;
     margin: 1vw 0;
-    border-bottom: 5px solid #21313b;
+    border-bottom: 5px solid var(--border-color);
     padding: 0 15px;
     line-height: 1;
 }
@@ -98,57 +100,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--subBg500);
+    border: 1px solid var(--border-color);
     width: 100%;
     height: 50px;
     transition: all 0.3s;
 }
 
 .port__item .link:hover {
-    background-color: var(--subBg500);
+    background-color: var(--border-color);
     color: var(--mainFont-color);
 }
 
 .port__item.p1 {
-    background-color: #0a1e2e;
+    background-color: #0e141a;
 }
 
 .port__item.p2 {
-    background-color: #424951;
+    background-color: #10181f;
 }
 
 .port__item.p3 {
-    background-color: #5b6c7d;
+    background-color: #0e141a;
     color: var(--black);
-    ;
 }
 
 .port__item.p4 {
-    background-color: #80969d;
+    background-color: #0e141a;
     color: var(--black);
 }
 
 .port__item.p5 {
-    background-color: #b7bec2;
+    background-color: #0e141a;
     color: var(--black);
 }
 
 .port__item.p6 {
-    background-color: #9aaabb;
+    background-color: #0e141a;
 }
 
 .port__item.p7 {
-    background-color: #8fa4bb;
+    background-color: #0e141a;
 }
 
 .port__item.p8 {
-    background-color: #7e9cbb;
+    background-color: #0e141a;
 }
 
 .port__item.p9 {
-    background-color: #6b849e;
+    background-color: #0e141a;
 }
 
 .port__item.p10 {
-    background-color: #596d83;
+    background-color: #0e141a;
 }

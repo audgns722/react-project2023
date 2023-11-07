@@ -15,8 +15,8 @@
     line-height: 1.6;
     text-transform: uppercase;
     font-family: var(--mainEng-font);
-    color: var(--mainFont-color);
-    border-bottom: 5px solid var(--subBg500);
+    color: var(--bigNum-color);
+    border-bottom: 5px solid var(--border-color);
 }
 
 .skill__title em {
@@ -36,7 +36,7 @@
     display: block;
     font-size: 5vw;
     font-weight: 700;
-    color: var(--subBg200);
+    color: var(--bigNum-color);
     line-height: 1;
     font-family: var(--mainNum-font);
     padding-top: 10px;
@@ -46,14 +46,14 @@
     margin-left: 3vw;
     display: inline-block;
     font-size: 2vw;
-    color: var(--white100);
-    border-bottom: 3px dashed var(--subBg100);
+    color: var(--bigNum-color);
+    border-bottom: 3px dashed var(--border-color);
 
 }
 
 .skill__desc p {
     font-size: 2vw;
-    color: var(--mainFont-color);
+    color: var(--bigNum-color);
     margin-left: 3vw;
     margin-top: 2vw;
     margin-bottom: 30vw;

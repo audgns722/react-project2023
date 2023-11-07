@@ -1,5 +1,5 @@
 #contact {
-    height: 100vh;
+    // height: 100vh;
 }
 
 .contact__inner {
@@ -14,24 +14,38 @@
     line-height: 1.6;
     text-transform: uppercase;
     font-family: var(--mainEng-font);
-    color: var(--mainFont-color);
+    color: var(--bigNum-color);
     border-bottom: 5px solid var(--subBg500);
     margin-bottom: 15vh;
 }
 
 .contact__text {
     display: flex;
+    background-color: var(--mainIntroBg-color);
+    height: 500px;
+}
+.contact__img {
+    width: 30%;
+    height: 100%;
+    background-image: url(../../img/contactbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact__info {
+    width: 70%;
+    height: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--subBg400);
-    height: 30vh;
+    text-transform: uppercase;
 }
-
-.contact__text a {
+.contact__info a {
+    display: inline-block;
     padding: 15px;
     font-size: 2vw;
-    font-family: var(--mainEng-font);
+    font-family: "Russo One", sans-serif;
     color: var(--mainFont-color);
 }
 
@@ -55,37 +69,37 @@
 }
 
 .contact__line .line:nth-child(1) {
-    background-color: #7c8eb4;
+    background-color: var(--mainIntroBg-color);
     height: 1px;
 }
 
 .contact__line .line:nth-child(2) {
-    background-color: #7282a5;
+    background-color: var(--mainIntroBg-color);
     height: 2px;
 }
 
 .contact__line .line:nth-child(3) {
-    background-color: #677697;
+    background-color: var(--mainIntroBg-color);
     height: 3px;
 }
 
 .contact__line .line:nth-child(4) {
-    background-color: #576481;
+    background-color: var(--mainIntroBg-color);
     height: 4px;
 }
 
 .contact__line .line:nth-child(5) {
-    background-color: #55627e;
+    background-color: var(--mainIntroBg-color);
     height: 5px;
 }
 
 .contact__line .line:nth-child(6) {
-    background-color: #4b5770;
+    background-color: var(--mainIntroBg-color);
     height: 6px;
 }
 
 .contact__line .line:nth-child(7) {
-    background-color: #434d63;
+    background-color: var(--mainIntroBg-color);
     height: 7px;
 }
 
@@ -94,37 +108,37 @@
 }
 
 .contact__line.bottom .line:nth-child(7) {
-    background-color: #7c8eb4;
+    background-color: var(--mainIntroBg-color);
     height: 1px;
 }
 
 .contact__line.bottom .line:nth-child(6) {
-    background-color: #7282a5;
+    background-color: var(--mainIntroBg-color);
     height: 2px;
 }
 
 .contact__line.bottom .line:nth-child(5) {
-    background-color: #677697;
+    background-color: var(--mainIntroBg-color);
     height: 3px;
 }
 
 .contact__line.bottom .line:nth-child(4) {
-    background-color: #576481;
+    background-color: var(--mainIntroBg-color);
     height: 4px;
 }
 
 .contact__line.bottom .line:nth-child(3) {
-    background-color: #55627e;
+    background-color: var(--mainIntroBg-color);
     height: 5px;
 }
 
 .contact__line.bottom .line:nth-child(2) {
-    background-color: #4b5770;
+    background-color: var(--mainIntroBg-color);
     height: 6px;
 }
 
 .contact__line.bottom .line:nth-child(1) {
-    background-color: #434d63;
+    background-color: var(--mainIntroBg-color);
     height: 7px;
     margin-top: 5px;
 }

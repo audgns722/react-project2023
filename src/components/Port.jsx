@@ -1,14 +1,14 @@
 import React from 'react'
-import img01 from '../assets/img/portimg1.png'
-// import img02 from '../assets/img/portimg2.png'
-// import img03 from '../assets/img/portimg3.png'
-// import img04 from '../assets/img/portimg4.png'
-// import img05 from '../assets/img/portimg5.png'
-// import img06 from '../assets/img/portimg6.png'
-// import img07 from '../assets/img/portimg7.png'
-// import img08 from '../assets/img/portimg8.png'
-// import img09 from '../assets/img/portimg9.png'
-// import img10 from '../assets/img/portimg10.png'
+import img01 from '../assets/img/portimg01.jpg'
+import img02 from '../assets/img/portimg02.jpg'
+import img03 from '../assets/img/portimg03.jpg'
+import img04 from '../assets/img/portimg04.jpg'
+import img05 from '../assets/img/portimg05.jpg'
+import img06 from '../assets/img/portimg06.jpg'
+import img07 from '../assets/img/portimg07.jpg'
+import img08 from '../assets/img/portimg08.jpg'
+import img09 from '../assets/img/portimg09.jpg'
+import img10 from '../assets/img/portimg10.jpg'
 
 const Port = () => {
   return (
@@ -35,7 +35,7 @@ const Port = () => {
           <div className="port__item p2">
             <span className="num">02.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img02} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -49,7 +49,7 @@ const Port = () => {
           <div className="port__item p3">
             <span className="num">03.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img03} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -63,7 +63,7 @@ const Port = () => {
           <div className="port__item p4">
             <span className="num">04.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img04} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -77,7 +77,7 @@ const Port = () => {
           <div className="port__item p5">
             <span className="num">05.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img05} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -91,7 +91,7 @@ const Port = () => {
           <div className="port__item p6">
             <span className="num">06.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img06} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -105,7 +105,7 @@ const Port = () => {
           <div className="port__item p7">
             <span className="num">07.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img07} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -119,7 +119,7 @@ const Port = () => {
           <div className="port__item p8">
             <span className="num">08.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img08} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -133,7 +133,7 @@ const Port = () => {
           <div className="port__item p9">
             <span className="num">09.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img09} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
@@ -147,7 +147,7 @@ const Port = () => {
           <div className="port__item p10">
             <span className="num">10.</span>
             <a href="/">
-              <img src={img01} alt="포트폴리오이미지1" />
+              <img src={img10} alt="포트폴리오이미지1" />
             </a>
             <h3 className="title">리액트를 이용한 포트폴리오</h3>
             <p className="desc">
