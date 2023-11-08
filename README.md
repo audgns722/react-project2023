@@ -21,7 +21,8 @@
 1. 폴더를 만들고 리액트를 설치
 2. git에 업로드
 3. body 안에 : id="root" 생성
-4. [lenis 사이트](https://github.com/studio-freight/lenis){:target="_blank"}
+4. lenis [사이트📎](https://github.com/studio-freight/lenis){:target="\_blank"}
+5. Firebase [호스팅📎](https://hoons-react-project-aaa3b.web.app/){:target="\_blank"}
 
 ## 설치
 
@@ -31,11 +32,38 @@
 4. lenis 설치 `npm i @studio-freight/lenis`
 5. react-router-dom 설치 `npm i react-router-dom`
 
+## firebase 호스팅 방법
+
+1. build 진행 `npm run build`
+2. Firebase 설치 `npm install firebase`
+3. 로그인 `firebase login`
+4. Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? <span style="color : #000; background-color:#DCFFE4"> **yes** </span>
+5. Firebase 프로젝트 설정`firebase init`
+6. Are you ready to proceed? <span style="color : #000;background-color:#DCFFE4"> **yes** </span>
+7. What do you want to use as your public directory? <span style="color : #000; background-color:#DCFFE4"> **build** </span>
+8. Configure as a single-page app (rewrite all urls to /index.html)? <span style="color : #000; background-color:#DCFFE4"> **No** </span>
+9. Set up automatic builds and deploys with GitHub? <span style="color : #000; background-color:#DCFFE4"> **No** </span>
+10. File build/index.html already exists. Overwrite? <span style="color : #000; background-color:#DCFFE4"> **No** </span>
+
 ### GSAP
 
-- GSAP (GreenSock Animation Platform)은 웹 애니메이션을 만들기 위한 강력하고 유연한 JavaScript 라이브러리입니다. GSAP를 사용하면 웹 페이지 또는 웹 애플리케이션에서 다양한 애니메이션 효과를 쉽게 추가하고 제어할 수 있습니다.
+#### -GSAP (GreenSock Animation Platform)은 웹 애니메이션을 만들기 위한 강력하고 유연한 JavaScript 라이브러리입니다.
 
-### lenis
+1. 풍부한 애니메이션 제어: GSAP은 다양한 애니메이션 속성 및 타임라인을 사용하여 요소의 동적인 애니메이션을 생성하고 제어할 수 있습니다.
+2. 크로스 브라우저 호환성: GSAP은 모든 주요 브라우저에서 일관된 애니메이션 경험을 제공하며, 브라우저 호환성 문제를 자동으로 처리합니다.
+3. 직관적인 구문: GSAP은 직관적이고 간결한 JavaScript 문법을 사용하여 애니메이션을 정의하므로 개발자가 빠르게 익히고 사용할 수 있습니다.
+4. 높은 성능: GSAP은 최적화된 애니메이션 엔진을 사용하여 부드럽고 효율적인 애니메이션을 제공하며, 성능에 민감한 웹 애플리케이션에서도 우수한 결과를 보여줍니다.
+5. 확장성과 커뮤니티: GSAP은 풍부한 플러그인 생태계와 활발한 개발자 커뮤니티를 지원하며, 다양한 기능을 확장하고 커스터마이징할 수 있습니다.
+
+#### -REACT에서 GSAP를 사용할때 주의해야할점
+
+1. useEffect 내에서 GSAP 초기화: GSAP 애니메이션을 초기화하고 트리거하는 코드를 useEffect 내에서 실행했습니다. 이것은 컴포넌트가 마운트된 후에 GSAP가 초기화되도록 보장합니다.
+2. 요소 레퍼런스 및 애니메이션: GSAP에서 요소 레퍼런스와 애니메이션을 연결하는 방식으로 useRef를 사용하고, 배열에 요소 레퍼런스를 저장하는 방식으로 각 섹션 요소를 관리하고 애니메이션을 적용했습니다.
+3. 애니메이션 해제: 컴포넌트가 언마운트될 때 GSAP 애니메이션을 정리하려고 return 블록 내에 scrollTween.kill();를 사용하였습니다. 이것은 메모리 누수를 방지하고 애니메이션을 안전하게 해제하는데 도움이 됩니다.
+4. GSAP 플러그인 초기화: GSAP 플러그인인 ScrollTrigger를 gsap.registerPlugin(ScrollTrigger);를 사용하여 초기화했습니다.
+5. 퍼포먼스 최적화: "scrub" 및 "invalidateOnRefresh"와 같은 ScrollTrigger 옵션을 사용하여 애니메이션의 퍼포먼스를 최적화했습니다.
+
+### lenis의 특징
 
 - 경량(~3KB), 빠른 스크롤을 지원하는 오픈소스
 - 메인쓰레드에서 스크롤 실행, 접근성 지원
@@ -53,7 +81,7 @@
 
 ## Whitespace 에러(해결) : push 중 warning
 
-[해결!](https://velog.io/@wnguswn7/Git-Bash-warning-in-the-working-copy-of-.gitignore-LF-will-be-replaced-by-CRLF-the-next-time-Git-touches-it){:target="_blank"}  
+[해결!](https://velog.io/@wnguswn7/Git-Bash-warning-in-the-working-copy-of-.gitignore-LF-will-be-replaced-by-CRLF-the-next-time-Git-touches-it){:target="\_blank"}  
 Git의 core.autocrlf 라는 기능을 켜서 이를 자동 변환 해주도록 하면 된다.
 
 - `git config --global core.autocrlf true` // 시스템 전체에 적용

@@ -42,7 +42,9 @@
     text-transform: none;
 }
 
-.header__nav {}
+.header__nav {
+    cursor: pointer;
+}
 
 .header__nav li {
     display: inline;
@@ -160,5 +162,6 @@
 
     .header__nav__mobile {
         display: block;
+        cursor: pointer;
     }
 }
