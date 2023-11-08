@@ -21,8 +21,8 @@
 1. 폴더를 만들고 리액트를 설치
 2. git에 업로드
 3. body 안에 : id="root" 생성
-4. lenis [사이트📎](https://github.com/studio-freight/lenis){:target="\_blank"}
-5. Firebase [호스팅📎](https://hoons-react-project-aaa3b.web.app/){:target="\_blank"}
+4. lenis [사이트📎](https://github.com/studio-freight/lenis){:target="_blank"}
+5. Firebase [호스팅📎](https://hoons-react-project-aaa3b.web.app/){:target="_blank"}
 
 ## 설치
 
