@@ -39,7 +39,7 @@
 3. 로그인 `firebase login`
 4. Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? <span style="color : #000; background-color:#DCFFE4"> **yes** </span>
 5. Firebase 프로젝트 설정`firebase init`
-6. Are you ready to proceed? <span style="color : #000;background-color:#DCFFE4"> **yes** </span>
+6. Are you ready to proceed? <span style="color : red;background-color:#DCFFE4"> **yes** </span>
 7. What do you want to use as your public directory? <span style="color : #000; background-color:#DCFFE4"> **build** </span>
 8. Configure as a single-page app (rewrite all urls to /index.html)? <span style="color : #000; background-color:#DCFFE4"> **No** </span>
 9. Set up automatic builds and deploys with GitHub? <span style="color : #000; background-color:#DCFFE4"> **No** </span>
